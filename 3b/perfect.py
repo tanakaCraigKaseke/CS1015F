@@ -2,6 +2,7 @@
 # Student name: Craig Kaseke
 # Date: 7 March 2025
 # Last modified: 7 March 2025
+# https://github.com/tanakaCraigKaseke/CS1015F.git
 # program description: program called ‘perfect.py’ determines if a given number is a perfect number or not.
 
 number_input = int(input('Enter a number:\n'))
@@ -11,8 +12,9 @@ for i in range(1, number_input ):
     if number_input % i == 0:
         proper_divisors.append(i)
 
-print(f'The proper divisors of {number_input} are:\n',*proper_divisors,'\n')
-
+print(f'The proper divisors of {number_input} are:')
+print(" ".join(map(str, proper_divisors)))  # Correctly formatted output
+print("")
 is_perfect = sum(proper_divisors) == number_input
 
 if is_perfect:

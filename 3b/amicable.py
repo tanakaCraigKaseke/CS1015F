@@ -2,6 +2,7 @@
 # Student name: Craig Kaseke
 # Date: 7 March 2025
 # Last modified: 7 March 2025
+# https://github.com/tanakaCraigKaseke/CS1015F.git
 # program to determine weather two nummbers are amicable
 
 first_number = int(input('Enter first number:\n'))
@@ -20,6 +21,6 @@ def sigma(n):
 
 
 if sigma(first_number) == second_number and sigma(second_number) == first_number:
-    print(f'{first_number} and {second_number} are amicable numbers.\n')
+    print(f'{first_number} and {second_number} are amicable numbers.')
 else:
-    print(f'{first_number} and {second_number} are not amicable numbers.\n')
+    print(f'{first_number} and {second_number} are not amicable numbers.')
