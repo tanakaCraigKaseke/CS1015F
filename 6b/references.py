@@ -10,8 +10,7 @@
 #             information.
 
 # Reference input
-input_references = "poulo, lebeko bernard (2013) fine-grained scalability Of digital library services In The cloud, SAICSIT Conference 2014, ACM, pp23-34, 2014"
-
+input_references = input("Enter the reference:\n")
 # Find positions of key delimiters
 start_of_year_index = input_references.find("(")
 end_of_year_index = input_references.find(")")
